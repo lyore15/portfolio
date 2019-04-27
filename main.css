@@ -1,4 +1,3 @@
-/*-----Global-----*/
 body {
     background-color: black;
     color: rgba(255,255,255,0.8);
@@ -6,7 +5,7 @@ body {
 }
 
 .nav-wrapper {
-    margin-right: 230px;
+    margin-right: 220px;
 }
 
 h1 {
@@ -189,17 +188,5 @@ h2 {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-/*-----nav-----*/
-
-/*-----header-----*/
-
-/*-----work-----*/
-
-/*-----whatIDO-----*/
-
-/*-----work2-----*/
-
-/*-----footer-----*/
 
 /*-----Responsive-----*/
