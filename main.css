@@ -1,0 +1,205 @@
+/*-----Global-----*/
+body {
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-wrapper {
+    margin-right: 230px;
+}
+
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 85px;
+}
+
+h2 {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.btn1 {
+    box-shadow: 0px 0px 15px  #ffeb3b;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn2 {
+    box-shadow: 0px 0px 15px #ffeb3b;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.btn3 {
+    box-shadow: 0px 0px 15px  #69f0ae;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn4 {
+    box-shadow: 0px 0px 15px #69f0ae;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.btn5 {
+    box-shadow: 0px 0px 15px  #80deea;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn6 {
+    box-shadow: 0px 0px 15px #80deea;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.btn7 {
+    box-shadow: 0px 0px 15px  #f06292;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn8 {
+    box-shadow: 0px 0px 15px #f06292;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.btn9 {
+    box-shadow: 0px 0px 15px  #7e57c2;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn10 {
+    box-shadow: 0px 0px 15px #7e57c2;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.btn11 {
+    box-shadow: 0px 0px 15px  #536dfe;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn12 {
+    box-shadow: 0px 0px 15px #536dfe;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+/*-----landing-----*/
+#landing{
+    height: 100vh;
+    background-image: url("./assets/images/skyline.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+#mainText{
+    margin-top: 30vh;
+}
+
+.break-container {
+    background-image: url("./assets/images/skyline.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*-----nav-----*/
+
+/*-----header-----*/
+
+/*-----work-----*/
+
+/*-----whatIDO-----*/
+
+/*-----work2-----*/
+
+/*-----footer-----*/
+
+/*-----Responsive-----*/

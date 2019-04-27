@@ -6,45 +6,278 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Regine Lyons</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Rubik" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 
 <body>
-    <ul id="sideNav" class="sidenav sidenav-fixed">
-        <li><img class="circle" src="assets/images/me.jpg" alt="Regine Lyons" width="250" height="250"></li>
-        <li><a href="index.html">
-                <h4>Regine Lyons</h4>
-            </a></li>
-        <li><a href="works.html">
-                <h4>Works</h4>
-            </a></li>
-        <li><a href="contact.html">
-                <h4>Contact</h4>
-            </a></li>
-    </ul>
-    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
-
-    <!-- <ul class="sidenav" id="mobile">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="categories.html">Categories</a></li>
-    <li><a href="meetup.html"> Meet Other Bookworms</a></li>
-  </ul> -->
-
-    <div class="main">
-        <h1>About Me</h1>
-        <p>Hey, What's Up? Hello!</p>
-        <p>I'm an aspiring web developer living in Orlando, FL. I’m extremely passionate
-            about web development and design. I am enrolled in UCF's Bootcamp learning as much as I can
-            about all the ins and outs of web development.</p>
-
-        <p>I received my Bachelor of Arts in Mass
-            Communications with a minor in business at Northwestern State
-            University in Natchitoches, La. In my free time I enjoy exploring Orlando. I've lived here my
-            whole life but I always feel like there's something new to do!</p>
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"></a>
+                    <a href="index.html" class="sidenav-trigger" data-target="mobile"><i class="fa fa-bars"></i></a>
+                    <ul class="right hide-on-med-and-down" id="navList">
+                        <li><a href="#landing">Home</a></li>
+                        <li><a href="#intro">About Me</a></li>
+                        <li><a href="#work">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+
+    <ul class="sidenav" id="mobile">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#intro">About Me</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Landing Screen -->
+    <div class="section" id="landing">
+        <h5 id="mainText" class="center"></h5>
+        <h1 style="color: white;" class="center">
+            Regine Lyons
+        </h1>
+        <h6 id="mainText" class="center">Aspiring Frontend Developer</h6>
+    </div>
+
+    <!-- Intro and service -->
+    <div id="intro" class="section black">
+        <div class="container">
+            <div class="row center">
+                <div class="col s12 m12 l3">
+                    <img class="img" src="./assets/images/me.jpg" width="250" height="250">
+                </div>
+                <dic class="col s12 m12 offset-l1 l8 ">
+                    <h2 class="center"> <b>What makes me, me?</b></h2>
+                    <ul>
+                        <li><strong>BA in Mass Communications</strong> - I like to talk.</li>
+                        <li>Orlando, FL - Where dreams come true.</li>
+                        <li>Passion for Fashion - Yes, you can wear white after Labor Day.</li>
+                        <li>Donuts - Will run for donuts.</li>
+                        <li>Yellow - My favorite color. Always have been always will be.</li>
+                    </ul>
+                </dic>
+            </div>
+        </div>
+    </div>
+
+    <!--break-->
+    <div id="p1" class="break-container">
+        <div class="break">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center white-text">
+                    <h2><b><i>Be Passionate.</i></b></h2>
+                    <h4>“Keep bringing your passion, it’s how you’re going to make your mark.” <br>
+                        <i>- Oliver Grayson, <b>The Bold Type</b></i>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Work-->
+    <div class="section" style="background-color: #141414;" id="work">
+        <div class="container">
+            <h2 class="header text_b center">My Projects </h2>
+            <div class="row ">
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/standup.jpg" width="150" height="135">
+                        </div>
+                        <div class="card-content center">
+                            <span class="card-title activator purple-text text-lighten-5 center">GifTastic! <i
+                                    class="mdi-navigation-more-vert right"></i></span>
+                            <a href="https://lyore15.github.io/GifTastic/" target="_blank" class="btn1">Website</a><a
+                                href="https://lyore15.github.io/GifTastic/" target="_blank" class="btn2">GitHub</a>
+                        </div>
+                        <div class="card-reveal black">
+                            <span class="card-title purple-text text-lighten-5">GifTastic! <i
+                                    class="mdi-navigation-close right"></i></span>
+                            <p>Select a comedy, and it will select the 10 most popular gifs with that category from the
+                                GIPHY website. You can add also comedies of your own. Each gif can be animated by
+                                clicking on
+                                the picture. They will stop if you click on them a 2nd time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/star-trek.jpg" width="150" height="135">
+                        </div>
+                        <div class="card-content center">
+                            <span class="card-title activator purple-text text-lighten-5">Trekkie Trivia! <i
+                                    class="mdi-navigation-more-vert right"></i></span>
+                            <a href="https://lyore15.github.io/TriviaGame/" target="_blank" class="btn3">Website</a><a
+                                href="https://github.com/lyore15/TriviaGame" target="_blank" class="btn4">GitHub</a>
+                        </div>
+                        <div class="card-reveal black">
+                            <span class="card-title purple-text text-lighten-5">Trekkie Trivia! <i
+                                    class="mdi-navigation-close right"></i></span>
+                            <p>Press the start button to test your Star Trek knowledge! At the end of the game, you will
+                                see how many questions you answered correctly, incorrectly and unanswered. Live long and
+                                prosper!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/train-station.jpg" width="150" height="135">
+                        </div>
+                        <div class="card-content center">
+                            <span class="card-title activator purple-text text-lighten-5">TrainSchedule! <i
+                                    class="mdi-navigation-more-vert right"></i></span>
+                            <a href="https://lyore15.github.io/TrainSchedule/" target="_blank"
+                                class="btn5">Website</a><a href="https://github.com/lyore15/TrainSchedule"
+                                target="_blank" class="btn6">GitHub</a>
+                        </div>
+                        <div class="card-reveal black">
+                            <span class="card-title purple-text text-lighten-5">TrainSchedule! <i
+                                    class="mdi-navigation-close right"></i></span>
+                            <p>Train Scheduler will allow the user to see how much time until the next train
+                                arrives as well as add a train to the schedule. The schedule will show the train,
+                                destination, frequency, arrival time and how long until the next train.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="">
+                        </div>
+                        <div class="card-content center">
+                            <span class="card-title activator purple-text text-lighten-5">Project 1 <i
+                                    class="mdi-navigation-more-vert right"></i></span>
+                            <a href="#" target="_blank" class="btn7">Website</a><a
+                                href="#" target="_blank" class="btn8">GitHub</a>
+                        </div>
+                        <div class="card-reveal black">
+                            <span class="card-title purple-text text-lighten-5">Project 1 <i
+                                    class="mdi-navigation-close right"></i></span>
+                            <p>Select a comedy, and it will select the 10 most popular gifs with that category from the
+                                GIPHY website. You can add also comedies of your own. Each gif can be animated by
+                                clicking on
+                                the picture. They will stop if you click on them a 2nd time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="">
+                        </div>
+                        <div class="card-content center">
+                            <span class="card-title activator purple-text text-lighten-5">Project 2 <i
+                                    class="mdi-navigation-more-vert right"></i></span>
+                            <a href="#" target="_blank" class="btn9">Website</a><a
+                                href="#" target="_blank" class="btn10">GitHub</a>
+                        </div>
+                        <div class="card-reveal black">
+                            <span class="card-title purple-text text-lighten-5">Project 2 <i
+                                    class="mdi-navigation-close right"></i></span>
+                            <p>Select a comedy, and it will select the 10 most popular gifs with that category from the
+                                GIPHY website. You can add also comedies of your own. Each gif can be animated by
+                                clicking on
+                                the picture. They will stop if you click on them a 2nd time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="">
+                        </div>
+                        <div class="card-content center">
+                            <span class="card-title activator purple-text text-lighten-5">Project 3 <i
+                                    class="mdi-navigation-more-vert right"></i></span>
+                            <a href="#" target="_blank" class="btn11">Website</a><a
+                                href="#" target="_blank" class="btn12">GitHub</a>
+                        </div>
+                        <div class="card-reveal black">
+                            <span class="card-title purple-text text-lighten-5">Project 3 <i
+                                    class="mdi-navigation-close right"></i></span>
+                            <p>Select a comedy, and it will select the 10 most popular gifs with that category from the
+                                GIPHY website. You can add also comedies of your own. Each gif can be animated by
+                                clicking on
+                                the picture. They will stop if you click on them a 2nd time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skill Sets -->
+    <!-- <div class="section" style="background-color: #101010;" id="skillsets">
+        <div class="container">
+            <div class="row">
+                <h2 class="center white-text">
+                    Email me
+                </h2>
+            </div>
+            <div class="row center">
+                <div class="col s12 m12 l3">
+                    <img class="responsive-img" src="img/cpp.png">
+                </div>
+                <div class="col s12 m12 l3">
+                    <img class="responsive-img" src="img/node.png">
+                </div>
+                <div class="col s12 m12 l3">
+                    <img class="responsive-img" src="img/py.png">
+                </div>
+                <div class="col s12 m12 l3">
+                    <img class="responsive-img" src="img/shell.png">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Add FIXED ACTION BUTTON -->
+
+    <div class="fixed-action-btn vertical">
+        <a class="btn-floating btn-large  blue-grey darken-4">
+            <i class="fa fa-globe"></i>
+        </a>
+        <ul>
+            <li><a target="_blank" href="" class="btn-floating  blue darken-4"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="_blank" href="" class="btn-floating cyan lighten-1"><i class="fa fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://github.com/lyore15" class="btn-floating grey darken-3"> <i
+                        class="fa fa-github"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/reginelyons/"
+                    class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="section page-footer black">
+        <div class="container center-align">
+            &#169; Regine Lyons 2019
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
