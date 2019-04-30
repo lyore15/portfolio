@@ -190,3 +190,14 @@ h2 {
 }
 
 /*-----Responsive-----*/
+@media screen and (max-width:600px) {
+    #landing{
+        height: 100vh;
+        background-image: url("./assets/images/skyline.jpg");
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        z-index: -1;
+    }
+}
