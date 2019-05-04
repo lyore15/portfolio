@@ -190,22 +190,23 @@ h2 {
 }
 
 /*-----Responsive-----*/
-@media screen and (max-width:600px) {
-    #landing{
-        height: 100vh;
-        background-image: url("./assets/images/skyline.jpg");
+@media screen and (max-width:768px) {
+    .section {
+        width: 90%;
         background-position: center;
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        z-index: -1;
-    }
+        }
     .break-container {
-        background-image: url("./assets/images/skyline.jpg");
+        width: 90%;
         background-position: center;
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
+        }
+    } 
+ @media screen and (max-width:640px) {
+     .section {
+        width: 80%;
+        background-position: center;
+     }
+     .break-container {
+        width: 80%;
+        background-position: center;
+     }     
 }
