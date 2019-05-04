@@ -195,9 +195,17 @@ h2 {
         height: 100vh;
         background-image: url("./assets/images/skyline.jpg");
         background-position: center;
-        background-size: auto;
+        background-size: 50%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         z-index: -1;
     }
+    .break-container {
+        background-image: url("./assets/images/skyline.jpg");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
 }
